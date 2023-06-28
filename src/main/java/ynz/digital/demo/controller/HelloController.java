@@ -10,7 +10,7 @@ public class HelloController {
     @Value("${welcome.msg}")
     private String welcomeMsg;
 
-    @GetMapping("/")
+    @GetMapping("/hello")
     public String sayHello()
     {
         return welcomeMsg;

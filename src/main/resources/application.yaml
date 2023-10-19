@@ -29,9 +29,9 @@ management:
 spring:
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/ynz
+    url: jdbc:mysql://sarfraza-mk8s.dyn.nesc.nokia.net:13306/ynz
     username: root
-    password: password
+    password: admin@123
   jpa:
     hibernate.ddl-auto: update
     generate-ddl: true
